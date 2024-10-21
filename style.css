@@ -1,0 +1,65 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.showProducts{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.showCard{
+    border: 1px solid #0c5a16;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 6px 8px #000000b3;
+    width: 20%;
+    cursor: pointer;
+    background-color: #0c5a16;
+    color: #fff;
+}
+
+.showCard:hover{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+}
+
+
+.btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    background-color: #030a03; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #2b2b2b; 
+}
+
+.btn button:active {
+    background-color: #494949; 
+}
+
+.btn button:focus {
+    outline: none; 
+}
